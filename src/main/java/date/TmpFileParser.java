@@ -8,10 +8,10 @@ public class TmpFileParser {
 
         BufferedReader reader;
         try {
-            reader = new BufferedReader(new FileReader("/home/lucian/Activity/2022-08/md-10071-ema-delays/data-logs/per-instrument-0815/JNX/md10082_uat.data.20220815_jnx"));
+            reader = new BufferedReader(new FileReader("/home/lucian/Activity/2022-08/md-10071-ema-delays/data-logs/per-instrument-0816/BHP.AX/md10082_uat.data.20220816_bhp"));
             String line = reader.readLine();
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter("/home/lucian/Activity/2022-08/md-10071-ema-delays/data-logs/per-instrument-0815/JNX/md10082_uat.data.20220815_jnx_DELAYS"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter("/home/lucian/Activity/2022-08/md-10071-ema-delays/data-logs/per-instrument-0816/BHP.AX/md10082_uat.data.20220816_bhp_DELAYS"));
 
             while (line != null) {
                 System.out.println("LINE: " + line);
