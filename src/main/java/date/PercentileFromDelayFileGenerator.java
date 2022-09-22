@@ -9,7 +9,7 @@ import java.util.List;
 public class PercentileFromDelayFileGenerator {
     public static void main(String args[]) throws ParseException {
 
-        String delayFile = "/home/lucian/Activity/2022-08/md-10071-ema-delays/data-logs/per-instrument-0816/2437.JNF/md10082_uat.data.20220816_2437_DELAYS";
+        String delayFile = "/home/lucian/Activity/2022-09/md-10071-ema-delays/data-log/per-instrument-0909/JTIZ2/DELAYS/md10077_ema.data.20220909_JTIZ2_2_relevant_DELAYS";
         BufferedReader reader;
         List<Long> delays = new ArrayList<>();
 
